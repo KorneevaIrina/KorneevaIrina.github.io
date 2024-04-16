@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing Script&display=swap');
+
+a:hover {
+    cursor: url('source/favicon_io/favicon-16x16.png');
+}
+
+body {
+    font-family: Dancing Script, serif;
+    background: linear-gradient(270deg, #faf9f7 0%, #f8ead7 100%);
+}
+
+p {
+    color: rgb(73, 75, 75);
+
+}
+
+.nav-link {
+    color: rgb(97, 105, 105);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(78, 82, 82);
+}
+
+.navbar-brand img {
+    width: 35px;
+
+}
+
+.navbar-toggler {
+    background-color: rgb(241, 205, 188);
+}
+
+
+
+.sidebar {
+    color: rgb(232, 235, 234);
+    background: linear-gradient(90deg, #f5f2e6 0%, #f7d5bf 100%);
+}
+
+.aColor {
+    color: #332802;
+}
+
+.border {
+
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.col-lg-3,
+.child>img,
+.card>img {
+    border-radius: 25px;
+    border-color: #924f03;
+    border-style: double;
+
+
+}
+
+
+.dir,
+.card-body {
+    background: linear-gradient(90deg, #f7f7f2 0%, #d1a47f 100%);
+    color: rgb(180, 14, 14);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(180, 14, 14);
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    height: 600px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    margin: 15px;
+}
+
+.dir {
+    text-align: center;
+
+}
+
+
+
+
+.slide-text,
+.footer-text {
+    color: #030303;
+    margin: auto auto;
+}
+
+footer,
+.btn-primary {
+    background: linear-gradient(90deg, #ecd8c1 0%, #d4ad8a 100%);
+    border-style: solid;
+    border-color: #332802;
+    color: #332802;
+    ;
+
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #332802;
+    display: inline-block;
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s 10 normal forwards;
+}
+
+
+
+@keyframes call {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
