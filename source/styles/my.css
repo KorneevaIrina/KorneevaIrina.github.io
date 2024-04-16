@@ -167,4 +167,10 @@ footer,
     .carousel-indicators {
         display: none;
     }
+    .parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
