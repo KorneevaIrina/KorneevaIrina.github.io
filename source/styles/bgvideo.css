@@ -21,3 +21,9 @@
     color: aliceblue;
     z-index: 2;
 }
+
+@media all and (max-width: 500px) {
+    .bgvideo {
+        width: 100%;
+    }
+}
