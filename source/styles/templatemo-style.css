@@ -927,11 +927,12 @@ https://templatemo.com/tm-516-known
     }
 
     .custom-navbar {
-      background: #ffffff;
+      background: #c43b5f;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      padding: 10px 0;
+      padding: 10px;
+      margin: 10px;
       text-align: center;
     }
 
@@ -969,7 +970,7 @@ https://templatemo.com/tm-516-known
 
     .entry-form {
       display: block;
-      margin: 0 auto;
+      margin: 5 px auto;
     }
   }
 
