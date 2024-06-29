@@ -56,7 +56,7 @@ https://templatemo.com/tm-516-known
   }
 
   .navbar-brand {
-    color: #d424c6;
+    color: #a31049;
   }
 
 
@@ -370,6 +370,14 @@ https://templatemo.com/tm-516-known
       padding-left: 0;
     }
   }
+.entry-form {
+    background: #c43b5f;
+    border-radius: 100%;
+    text-align: center;
+    padding: 6em;
+    width: 450px;
+    height: 450px;
+  }
 
   .home-slider .caption {
     display: flex;
@@ -378,7 +386,7 @@ https://templatemo.com/tm-516-known
     text-align: left;
     background-color: #c43b5frgba(214, 157, 157, 0.2);
     height: 100%;
-    color: #fff;
+    color: #e252b7;
     cursor: e-resize;
   }
 
@@ -461,7 +469,7 @@ https://templatemo.com/tm-516-known
   #about figure span i {
     background:  #a31049;
     border-radius: 50px;
-    color: #ffffff;
+    color: #e252b7;;
     font-size: 25px;
     width: 50px;
     height: 50px;
@@ -496,7 +504,7 @@ https://templatemo.com/tm-516-known
   }
 
   .team-thumb .social-icon li a {
-    background: #ffffff;
+    background: #a31049;
     color: #c43b5f;
   }
 
@@ -528,7 +536,7 @@ https://templatemo.com/tm-516-known
   }
 
   .courses-thumb {
-    background: #f9f9f9;
+    background: #a31049;;
     position: relative;
   }
 
@@ -537,7 +545,7 @@ https://templatemo.com/tm-516-known
   }
 
   .courses-image {
-    background: linear-gradient(to right, #a52f2f, #101010);
+    background: linear-gradient(to right, #a52f2f, #a31049;);
   }
 
   .courses-date {
@@ -555,7 +563,7 @@ https://templatemo.com/tm-516-known
   }
 
   .courses-date span {
-    color: #ffffff;
+    color: #a31049;
     display: inline-block;
     margin-right: 10px;
   }
@@ -597,7 +605,7 @@ https://templatemo.com/tm-516-known
   .courses-price span {
     background: #c43b5f;
     border-radius: 2px;
-    color: #ffffff;
+    color: #a31049;;
     display: block;
     padding: 5px 10px;
   }
@@ -631,7 +639,7 @@ https://templatemo.com/tm-516-known
   }
 
   .news-date span {
-    color: #6e0505;
+    color: #a31049;;
     font-weight: bold;
   }
 
@@ -642,7 +650,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #testimonial .item {
-    background: #da5075;
+    background: #a31049;
     margin: 20px 0;
     padding: 4em 3em;
     text-align: left;
@@ -696,7 +704,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #contact {
-    background: #f2a8ca;
+    background: #e252b7;
   }
 
   #contact h2 {
@@ -770,11 +778,11 @@ https://templatemo.com/tm-516-known
   }
 
   footer strong {
-    color: #d9d9d9;
+    color: #fcfcfc;
   }
 
   footer address p {
-    margin-bottom: 0;
+    margin-bottom: 1 px;
   }
 
   footer .social-icon {
