@@ -372,7 +372,7 @@ https://templatemo.com/tm-516-known
   }
 .entry-form {
     background: #c43b5f;
-    border-radius: 100%;
+    border-radius: 50%;
     text-align: center;
     padding: 6em;
     width: 450px;
@@ -429,7 +429,7 @@ https://templatemo.com/tm-516-known
   }
 
   .feature-thumb span {
-    background: #a31049;;
+    background: #a31049;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -1007,12 +1007,14 @@ https://templatemo.com/tm-516-known
     }
 
     .entry-form {
-      border-radius: 0;
+      border-radius: 50%;
       padding: 2em;
       max-width: 100%;
       max-height: 100%;
       width: inherit;
       height: inherit;
     }
+
+	
   }
   
