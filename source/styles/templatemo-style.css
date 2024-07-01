@@ -56,7 +56,7 @@ https://templatemo.com/tm-516-known
   }
 
   .navbar-brand {
-    color: #a31049;
+    color: #d424c6;
   }
 
 
@@ -343,6 +343,14 @@ https://templatemo.com/tm-516-known
     justify-content: center;
   }
 
+  .custom-navbar .navbar-brand {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
 
 
   /*---------------------------------------
@@ -370,14 +378,6 @@ https://templatemo.com/tm-516-known
       padding-left: 0;
     }
   }
-.entry-form {
-    background: #c43b5f;
-    border-radius: 50%;
-    text-align: center;
-    padding: 6em;
-    width: 450px;
-    height: 450px;
-  }
 
   .home-slider .caption {
     display: flex;
@@ -386,7 +386,7 @@ https://templatemo.com/tm-516-known
     text-align: left;
     background-color: #c43b5frgba(214, 157, 157, 0.2);
     height: 100%;
-    color: #e252b7;
+    color: #fff;
     cursor: e-resize;
   }
 
@@ -429,7 +429,7 @@ https://templatemo.com/tm-516-known
   }
 
   .feature-thumb span {
-    background: #a31049;
+    background: #a31049;;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -469,7 +469,7 @@ https://templatemo.com/tm-516-known
   #about figure span i {
     background:  #a31049;
     border-radius: 50px;
-    color: #e252b7;;
+    color: #ffffff;
     font-size: 25px;
     width: 50px;
     height: 50px;
@@ -504,7 +504,7 @@ https://templatemo.com/tm-516-known
   }
 
   .team-thumb .social-icon li a {
-    background: #a31049;
+    background: #ffffff;
     color: #c43b5f;
   }
 
@@ -519,6 +519,7 @@ https://templatemo.com/tm-516-known
 
   #courses .section-title {
     text-align: center;
+    
   }
 
   #courses .owl-theme .owl-nav {
@@ -533,10 +534,11 @@ https://templatemo.com/tm-516-known
     line-height: 30px;
     text-align: center;
     padding: 0;
+
   }
 
   .courses-thumb {
-    background: #a31049;;
+    background: #f9f9f9;
     position: relative;
   }
 
@@ -545,7 +547,7 @@ https://templatemo.com/tm-516-known
   }
 
   .courses-image {
-    background: linear-gradient(to right, #a52f2f, #a31049;);
+    background: linear-gradient(to right, #a52f2f, #101010);
   }
 
   .courses-date {
@@ -563,7 +565,7 @@ https://templatemo.com/tm-516-known
   }
 
   .courses-date span {
-    color: #a31049;
+    color: #ffffff;
     display: inline-block;
     margin-right: 10px;
   }
@@ -605,13 +607,12 @@ https://templatemo.com/tm-516-known
   .courses-price span {
     background: #c43b5f;
     border-radius: 2px;
-    color: #a31049;;
+    color: #ffffff;
     display: block;
     padding: 5px 10px;
   }
 
-
-
+  
  
 
 
@@ -639,7 +640,7 @@ https://templatemo.com/tm-516-known
   }
 
   .news-date span {
-    color: #a31049;;
+    color: #6e0505;
     font-weight: bold;
   }
 
@@ -650,7 +651,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #testimonial .item {
-    background: #a31049;
+    background: #da5075;
     margin: 20px 0;
     padding: 4em 3em;
     text-align: left;
@@ -704,7 +705,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #contact {
-    background: #e252b7;
+    background: #f2a8ca;
   }
 
   #contact h2 {
@@ -778,11 +779,11 @@ https://templatemo.com/tm-516-known
   }
 
   footer strong {
-    color: #fcfcfc;
+    color: #d9d9d9;
   }
 
   footer address p {
-    margin-bottom: 1 px;
+    margin-bottom: 0;
   }
 
   footer .social-icon {
@@ -935,12 +936,11 @@ https://templatemo.com/tm-516-known
     }
 
     .custom-navbar {
-      background: #c43b5f;
+      background: #ffffff;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      padding: 10px;
-      margin: 10px;
+      padding: 10px 0;
       text-align: center;
     }
 
@@ -978,7 +978,7 @@ https://templatemo.com/tm-516-known
 
     .entry-form {
       display: block;
-      margin: 5 px auto;
+      margin: 0 auto;
     }
   }
 
@@ -1007,14 +1007,12 @@ https://templatemo.com/tm-516-known
     }
 
     .entry-form {
-      border-radius: 50%;
+      border-radius: 0;
       padding: 2em;
       max-width: 100%;
       max-height: 100%;
       width: inherit;
       height: inherit;
     }
-
-	
   }
   
