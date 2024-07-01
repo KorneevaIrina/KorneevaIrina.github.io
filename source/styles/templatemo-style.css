@@ -302,7 +302,7 @@ https://templatemo.com/tm-516-known
 
   .custom-navbar .nav li a {
     line-height: 40px;
-    color: #575757;
+    color: #a31049;
     padding-right: 22px;
     padding-left: 22px;
   }
@@ -375,7 +375,7 @@ https://templatemo.com/tm-516-known
 
   @media (min-width: 768px) {
     .home-slider .col-md-6 {
-      padding-left: 0;
+      padding-left: 5px;
     }
   }
 
@@ -386,7 +386,7 @@ https://templatemo.com/tm-516-known
     text-align: left;
     background-color: #c43b5frgba(214, 157, 157, 0.2);
     height: 100%;
-    color: #fff;
+    color: #c43b5f;
     cursor: e-resize;
   }
 
@@ -640,7 +640,7 @@ https://templatemo.com/tm-516-known
   }
 
   .news-date span {
-    color: #6e0505;
+    color: #c43b5f;
     font-weight: bold;
   }
 
@@ -651,7 +651,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #testimonial .item {
-    background: #da5075;
+    background: #c43b5f;
     margin: 20px 0;
     padding: 4em 3em;
     text-align: left;
