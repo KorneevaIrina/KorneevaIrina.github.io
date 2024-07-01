@@ -376,6 +376,7 @@ https://templatemo.com/tm-516-known
   @media (min-width: 768px) {
     .home-slider .col-md-6 {
       padding-left: 5px;
+      background: #f3e4f1;
     }
   }
 
@@ -456,6 +457,7 @@ https://templatemo.com/tm-516-known
     display: inline-block;
     vertical-align: top;
     margin-left: 15px;
+    background: #f3e4f1;
   }
 
   #about figure span {
