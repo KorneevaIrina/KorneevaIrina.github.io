@@ -323,7 +323,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-toggle {
-    border: none;
+    border: 2px;
     padding-top: 10px;
   }
 
@@ -892,17 +892,13 @@ https://templatemo.com/tm-516-known
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
-  @media screen and (max-width: 1170px) {
-    .custom-navbar .navbar-nav.navbar-nav-first {
+  @media (max-width: 755px) {
+      .body {
       margin-left: inherit;
-    }
-  }
-
-  @media only screen and (max-width: 992px) {
-    section,
-    footer {
-      padding: 60px 10px;
-    }
+      background: #e252b7;
+      padding-right: 10px;
+      padding-left: 10px;
+	   
 
     .home-slider .item {
       background-position: center center;
@@ -918,18 +914,9 @@ https://templatemo.com/tm-516-known
     .contact-image {
       margin-top: 50px;
     }
-  }
+  
 
-
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .custom-navbar .nav li a {
-      padding-right: 10px;
-      padding-left: 10px;
-      background: #e252b7;
-    }
-  }
-
-  @media only screen and (max-width: 767px) {
+ 
     h1 {
       font-size: 2.5em;
     }
@@ -961,7 +948,6 @@ https://templatemo.com/tm-516-known
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
       color: #c43b5f;
-      font-weight: 600;   
     }
 
     .custom-navbar .nav li a,
@@ -987,31 +973,8 @@ https://templatemo.com/tm-516-known
       margin: 0 auto;
       background: #c43b5f;
     }
-  }
+  
 
-
-  @media only screen and (max-width: 580px) {
-    h2 {
-      font-size: 1.8em;
-    }
-
-    #testimonial .item {
-      padding: 2em;
-    }
-
-    .contact-image {
-      margin-top: 0;
-    }
-  }
-
-  @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 2em;
-    }
-
-    #home h3 {
-      font-size: 14px;
-    }
 
     .entry-form {
       border-radius: 50%;
