@@ -302,7 +302,7 @@ https://templatemo.com/tm-516-known
 
   .custom-navbar .nav li a {
     line-height: 40px;
-    color: #a31049;
+    color: #575757;
     padding-right: 22px;
     padding-left: 22px;
   }
@@ -323,7 +323,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-toggle {
-    border: 2px;
+    border: none;
     padding-top: 10px;
   }
 
@@ -373,12 +373,6 @@ https://templatemo.com/tm-516-known
     padding: 5px 0 40px 0;
   }
 
-  @media (min-width: 768px) {
-    .home-slider .col-md-6 {
-      padding-left: 5px;
-      background: #f3e4f1;
-    }
-  }
 
   .home-slider .caption {
     display: flex;
@@ -387,7 +381,7 @@ https://templatemo.com/tm-516-known
     text-align: left;
     background-color: #c43b5frgba(214, 157, 157, 0.2);
     height: 100%;
-    color: #c43b5f;
+    color: #fff;
     cursor: e-resize;
   }
 
@@ -457,7 +451,6 @@ https://templatemo.com/tm-516-known
     display: inline-block;
     vertical-align: top;
     margin-left: 15px;
-    background: #f3e4f1;
   }
 
   #about figure span {
@@ -642,7 +635,7 @@ https://templatemo.com/tm-516-known
   }
 
   .news-date span {
-    color: #c43b5f;
+    color: #6e0505;
     font-weight: bold;
   }
 
@@ -653,7 +646,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #testimonial .item {
-    background: #c43b5f;
+    background: #da5075;
     margin: 20px 0;
     padding: 4em 3em;
     text-align: left;
@@ -785,7 +778,7 @@ https://templatemo.com/tm-516-known
   }
 
   footer address p {
-    margin-bottom: 5px;
+    margin-bottom: 0;
   }
 
   footer .social-icon {
@@ -806,8 +799,8 @@ https://templatemo.com/tm-516-known
   }
 
   .footer_menu ul {
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
   }
 
   .footer_menu li {
@@ -885,104 +878,3 @@ https://templatemo.com/tm-516-known
     background: #c43b5f;
     color: #ffffff;
   }
-
-
-
-  /*---------------------------------------
-     RESPONSIVE STYLES              
-  -----------------------------------------*/
-
-  @media (max-width: 755px) {
-      .body {
-      margin-left: inherit;
-      background: #e252b7;
-      padding-right: 10px;
-      padding-left: 10px;
-	   
-
-    .home-slider .item {
-      background-position: center center;
-    }
-
-    .feature-thumb,
-    .about-info,
-    .team-thumb,
-    .footer-info {
-      margin-bottom: 50px;
-    }
-
-    .contact-image {
-      margin-top: 50px;
-    }
-  
-
- 
-    h1 {
-      font-size: 2.5em;
-    }
-
-    h1,h2,h3 {
-      line-height: normal;
-	    color: #a31049;
-    }
-
-    .custom-navbar {
-      background: #e252b7;
-      -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      padding: 10px 5px;
-      text-align: center;
-    }
-
-    .custom-navbar .navbar-brand,
-    .custom-navbar .nav li a {
-      line-height: normal;
-    }
-
-    .custom-navbar .nav li a {
-      padding: 10px;
-      background: #c43b5f;
-    }
-
-    .custom-navbar .navbar-brand,
-    .top-nav-collapse .navbar-brand {
-      color: #c43b5f;
-    }
-
-    .custom-navbar .nav li a,
-    .top-nav-collapse .nav li a {
-      color: #c43b5f;
-    }
-
-    .custom-navbar .navbar-nav.navbar-right li {
-      display: inline-block;
-    }
-
-    .footer-info {
-      margin-right: 0;
-    }
-
-    .footer-info.newsletter-form {
-      margin-bottom: 0;
-      background: #c43b5f;
-    }
-
-    .entry-form {
-      display: block;
-      margin: 0 auto;
-      background: #c43b5f;
-    }
-  
-
-
-    .entry-form {
-      border-radius: 50%;
-      padding: 2em;
-      max-width: 100%;
-      max-height: 100%;
-      width: inherit;
-      height: inherit;
-    }
-  }
-  
