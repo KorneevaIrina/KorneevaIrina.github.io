@@ -783,7 +783,7 @@ https://templatemo.com/tm-516-known
   }
 
   footer address p {
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
 
   footer .social-icon {
@@ -804,8 +804,8 @@ https://templatemo.com/tm-516-known
   }
 
   .footer_menu ul {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
   }
 
   .footer_menu li {
@@ -899,7 +899,7 @@ https://templatemo.com/tm-516-known
   @media only screen and (max-width: 992px) {
     section,
     footer {
-      padding: 60px 0;
+      padding: 60px 10px;
     }
 
     .home-slider .item {
@@ -933,14 +933,15 @@ https://templatemo.com/tm-516-known
 
     h1,h2,h3 {
       line-height: normal;
+	    color: #a31049;
     }
 
     .custom-navbar {
-      background: #ffffff;
+      background: #e252b7;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      padding: 10px 0;
+      padding: 10px 5px;
       text-align: center;
     }
 
@@ -956,7 +957,7 @@ https://templatemo.com/tm-516-known
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
       color: #c43b5f;
-      font-weight: 600;
+      font-weight: 60px;   
     }
 
     .custom-navbar .nav li a,
@@ -1007,7 +1008,7 @@ https://templatemo.com/tm-516-known
     }
 
     .entry-form {
-      border-radius: 0;
+      border-radius: 50%;
       padding: 2em;
       max-width: 100%;
       max-height: 100%;
