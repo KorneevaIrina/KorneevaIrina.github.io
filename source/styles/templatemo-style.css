@@ -923,6 +923,7 @@ https://templatemo.com/tm-516-known
     .custom-navbar .nav li a {
       padding-right: 10px;
       padding-left: 10px;
+      background: #e252b7;
     }
   }
 
@@ -952,12 +953,13 @@ https://templatemo.com/tm-516-known
 
     .custom-navbar .nav li a {
       padding: 10px;
+      background: #c43b5f;
     }
 
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
       color: #c43b5f;
-      font-weight: 60px;   
+      font-weight: 600;   
     }
 
     .custom-navbar .nav li a,
@@ -975,11 +977,13 @@ https://templatemo.com/tm-516-known
 
     .footer-info.newsletter-form {
       margin-bottom: 0;
+      background: #c43b5f;
     }
 
     .entry-form {
       display: block;
       margin: 0 auto;
+      background: #c43b5f;
     }
   }
 
