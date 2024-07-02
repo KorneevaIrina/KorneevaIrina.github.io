@@ -391,7 +391,7 @@ https://templatemo.com/tm-516-known
   }
 
   .home-slider .item {
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: local;
     background-size: cover;
     height: 650px;
@@ -401,20 +401,20 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(source/images/slider-image1.jpg);
 	background-position: center;
   }
 
   .home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(source//images/slider-image2.jpg);
   }
 
   .home-slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(source//images/slider-image3.jpg);
   }
 
   .home-slider .item-fourth {
-    background-image: url(../images/slider-image4.jpg);
+    background-image: url(source//images/slider-image4.jpg);
   }
 
 
