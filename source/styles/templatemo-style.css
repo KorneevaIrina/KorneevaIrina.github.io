@@ -960,6 +960,11 @@ https://templatemo.com/tm-516-known
       color: #c43b5f;
       font-weight: 600;
     }
+	   
+    .navbar-toggle .icon-bar {
+    background: #f2a8ca;
+    
+  }
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
