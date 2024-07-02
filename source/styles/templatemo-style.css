@@ -338,7 +338,7 @@ https://templatemo.com/tm-516-known
 
   .parent {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
@@ -987,13 +987,20 @@ https://templatemo.com/tm-516-known
     .entry-form {
       display: block;
       margin: 0 auto;
-      border-radius: 50%;
+      border-radius: 100%;
       padding: 2em;
       max-width: 60%;
       max-height: 60%;
       width: inherit;
       height: inherit;
     }
+	    .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   }
   
 
