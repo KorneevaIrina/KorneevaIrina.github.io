@@ -891,7 +891,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
  
-  @media only screen and (max-width: 770px) {
+  @media (max-width: 770px) {
     body {
     background: #f3e4f1;
     font-family: 'Nunito', sans-serif;
@@ -930,7 +930,7 @@ https://templatemo.com/tm-516-known
     }
   
     h1 {
-      font-size: 2.5em;
+      font-size: 1.5em;
     }
 
     h1,h2,h3 {
@@ -978,13 +978,10 @@ https://templatemo.com/tm-516-known
       margin-bottom: 0;
     }
 
+
     .entry-form {
       display: block;
       margin: 0 auto;
-    }
-   
-
-    .entry-form {
       border-radius: 50%;
       padding: 2em;
       max-width: 80%;
