@@ -302,7 +302,7 @@ https://templatemo.com/tm-516-known
 
   .custom-navbar .nav li a {
     line-height: 40px;
-    color: #575757;
+    color: #e252b7;
     padding-right: 22px;
     padding-left: 22px;
   }
@@ -332,7 +332,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
-    background: #252525;
+    background: #f2a8ca;
     border-color: transparent;
   }
 
@@ -373,12 +373,12 @@ https://templatemo.com/tm-516-known
     padding: 5px 0 40px 0;
   }
 
-  @media (min-width: 768px) {
+/*   @media (min-width: 768px) {
     .home-slider .col-md-6 {
       padding-left: 0;
     }
   }
-
+ */
   .home-slider .caption {
     display: flex;
     justify-content: center;
@@ -890,17 +890,14 @@ https://templatemo.com/tm-516-known
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
-  @media screen and (max-width: 1170px) {
-    .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: inherit;
-    }
-  }
-
-  @media only screen and (max-width: 992px) {
+ 
+  @media only screen and (min-width: 768px) {
     section,
     footer {
       padding: 60px 0;
     }
+   .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: inherit;
 
     .home-slider .item {
       background-position: center center;
@@ -919,14 +916,14 @@ https://templatemo.com/tm-516-known
   }
 
 
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
     .custom-navbar .nav li a {
       padding-right: 10px;
       padding-left: 10px;
     }
-  }
+  
 
-  @media only screen and (max-width: 767px) {
+
     h1 {
       font-size: 2.5em;
     }
@@ -980,34 +977,14 @@ https://templatemo.com/tm-516-known
       display: block;
       margin: 0 auto;
     }
-  }
+  
 
 
-  @media only screen and (max-width: 580px) {
-    h2 {
-      font-size: 1.8em;
-    }
-
-    #testimonial .item {
-      padding: 2em;
-    }
-
-    .contact-image {
-      margin-top: 0;
-    }
-  }
-
-  @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 2em;
-    }
-
-    #home h3 {
-      font-size: 14px;
-    }
+ 
+ 
 
     .entry-form {
-      border-radius: 0;
+      border-radius: 50%;
       padding: 2em;
       max-width: 100%;
       max-height: 100%;
@@ -1015,15 +992,7 @@ https://templatemo.com/tm-516-known
       height: inherit;
     }
   }
-
-  /* MY */
-  @media (min-width: 1200px) {
-
-  }
-
-  @media (min-width: 768px) {
-    
-  }
+  
 
   
 
