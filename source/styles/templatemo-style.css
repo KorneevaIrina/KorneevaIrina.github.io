@@ -373,12 +373,12 @@ https://templatemo.com/tm-516-known
     padding: 5px 0 40px 0;
   }
 
-/*   @media (min-width: 768px) {
+  @media (min-width: 768px) {
     .home-slider .col-md-6 {
       padding-left: 0;
     }
   }
- */
+
   .home-slider .caption {
     display: flex;
     justify-content: center;
