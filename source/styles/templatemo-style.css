@@ -15,6 +15,10 @@ https://templatemo.com/tm-516-known
     padding-top: 70px;
   }
 
+  .spam{
+    color: white;
+  }
+
 
   /*---------------------------------------
      TYPOGRAPHY              
@@ -111,7 +115,7 @@ https://templatemo.com/tm-516-known
   }
 
   .overlay {
-    background: #e252b7;
+    background: rgba(20,20,20,0.5);
     position: absolute;
     top: 0;
     right: 0;
@@ -123,7 +127,7 @@ https://templatemo.com/tm-516-known
 
   .entry-form {
     background: #c43b5f;
-    border-radius: 50%;
+    border-radius: 100%;
     text-align: center;
     padding: 6em;
     width: 450px;
@@ -302,7 +306,7 @@ https://templatemo.com/tm-516-known
 
   .custom-navbar .nav li a {
     line-height: 40px;
-    color: #e252b7;
+    color: #575757;
     padding-right: 22px;
     padding-left: 22px;
   }
@@ -328,11 +332,11 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-toggle {
-    background-color: #a31049;
+    background-color: transparent;
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
-    background: #f2a8ca;
+    background: #252525;
     border-color: transparent;
   }
 
@@ -384,14 +388,14 @@ https://templatemo.com/tm-516-known
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    background-color: #c43b5frgba(214, 157, 157, 0.2);
+    background-color: rgba(214, 157, 157, 0.2);
     height: 100%;
     color: #fff;
     cursor: e-resize;
   }
 
   .home-slider .item {
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
     height: 650px;
@@ -401,20 +405,20 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(source/images/slider-image1.jpg);
+    background-image: url(../images/slider-image1.jpg);
 	background-position: center;
   }
 
   .home-slider .item-second {
-    background-image: url(source//images/slider-image2.jpg);
+    background-image: url(../images/slider-image2.jpg);
   }
 
   .home-slider .item-third {
-    background-image: url(source//images/slider-image3.jpg);
+    background-image: url(../images/slider-image3.jpg);
   }
 
   .home-slider .item-fourth {
-    background-image: url(source//images/slider-image4.jpg);
+    background-image: url(../images/slider-image4.jpg);
   }
 
 
@@ -779,7 +783,7 @@ https://templatemo.com/tm-516-known
   }
 
   footer strong {
-    color: #c43b5f;
+    color: #d9d9d9;
   }
 
   footer address p {
@@ -890,21 +894,17 @@ https://templatemo.com/tm-516-known
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
- 
-  @media (max-width: 770px) {
-    body {
-    background: #f3e4f1;
-    font-family: 'Nunito', sans-serif;
-    overflow-x: hidden;
-    padding-top: 70px;
+  @media screen and (max-width: 1170px) {
+    .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: inherit;
+    }
   }
+
+  @media only screen and (max-width: 992px) {
     section,
     footer {
       padding: 60px 0;
     }
-   .custom-navbar .navbar-nav.navbar-nav-first {
-      margin-left: inherit;
-   }
 
     .home-slider .item {
       background-position: center center;
@@ -920,19 +920,30 @@ https://templatemo.com/tm-516-known
     .contact-image {
       margin-top: 50px;
     }
-  
+  }
 
 
-
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .custom-navbar .nav li a {
       padding-right: 10px;
       padding-left: 10px;
     }
-  
+  }
+
+  @media only screen and (max-width: 767px) {
     h1 {
-      font-size: 1.5em;
+      font-size: 2.5em;
     }
 
+    .parent{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .team-image img {
+      width: 100%;
+      margin-top: 10px;
+  }
     h1,h2,h3 {
       line-height: normal;
     }
@@ -960,11 +971,6 @@ https://templatemo.com/tm-516-known
       color: #c43b5f;
       font-weight: 600;
     }
-	   
-    .navbar-toggle .icon-bar {
-    background: #f2a8ca;
-    
-  }
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
@@ -986,22 +992,51 @@ https://templatemo.com/tm-516-known
     .entry-form {
       display: block;
       margin: 0 auto;
-      border-radius: 100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 580px) {
+    h2 {
+      font-size: 1.8em;
+    }
+    .parent{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #testimonial .item {
+      padding: 2em;
+    }
+
+    .contact-image {
+      margin-top: 0;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 2em;
+    }
+    .parent{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #home h3 {
+      font-size: 14px;
+    }
+
+    .entry-form {
+      border-radius: 0;
       padding: 2em;
       max-width: 100%;
       max-height: 100%;
       width: inherit;
       height: inherit;
     }
-   .parent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
-  }
-  
 
   
 
